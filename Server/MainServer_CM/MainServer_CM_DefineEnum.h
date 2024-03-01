@@ -1,0 +1,6 @@
+﻿#ifndef	_MAIN_SERVER_CM_DEFINE_ENUM_H_
+#define	_MAIN_SERVER_CM_DEFINE_ENUM_H_
+
+
+
+#endif

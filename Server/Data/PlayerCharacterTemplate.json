@@ -1,0 +1,18 @@
+{
+	"version":0,
+	"listPlayerCharacterTemplate":[
+		{
+			"TID":1,
+			"name":"기본바디",
+			"basePrefabName":"Chracter/Prefab/Spine_C001",
+			"basePrefabName_Controller":"Character/Prefab/Spine_C001_Controller",
+			"sex":3,
+			"scale":0.4,
+			"height":1.75,
+			"ccRadius":0.25,
+			"mass":2,
+			"moveSpeed":1,
+			"jumpPower":600
+		}
+	]
+}

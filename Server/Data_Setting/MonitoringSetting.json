@@ -1,0 +1,8 @@
+[
+    {
+        "isAvailable": true,
+        "port": 51111,
+		"processName": "MainServer_LM.exe",
+		"exePath": "MainServer_LM.exe"
+    }
+]

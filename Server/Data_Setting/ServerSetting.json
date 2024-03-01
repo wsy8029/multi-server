@@ -1,0 +1,11 @@
+[
+	{
+		"index": 0,
+		"serverIPDBTable": "1_serverip_clark2",
+		"mySQL_HostName": "121.169.251.200",
+		"mySQL_Port": 0,
+		"mySQL_ID": "luxroboAdmin",
+		"mySQL_PSWD": "j+XbwF3J6Ndps+loFzIoYS3z1Q==",
+		"mySQL_Schema": "creverse"
+	}
+]

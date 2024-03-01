@@ -1,0 +1,11 @@
+[
+	{
+		"index": 0,
+		"serverIPDBTable": "1_serverip_clark2",
+		"mySQL_HostName": "nesto-multi-server.mysql.database.azure.com",
+		"mySQL_Port": 0,
+		"mySQL_ID": "nesto",
+		"mySQL_PSWD": "jvXX80Tu9eRI0Ygl",
+		"mySQL_Schema": "creverse"
+	}
+]

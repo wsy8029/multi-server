@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{13ebcdd5-b7fa-4fc3-b8cf-7663d23ef01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerBase">
+      <UniqueIdentifier>{a15a4d1c-53ad-4a81-a21a-91422e7c31ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerCommon">
+      <UniqueIdentifier>{136537ef-3e10-4494-b46d-aed6fa692cb5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerMonitoring_CM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerMonitoring_CM_CB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\THGUIDFactory.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\THMySqlConnector.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ServerCommon\MyCommonImpl.cpp">
+      <Filter>ServerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ServerCommon\MyPacketSerialize.cpp">
+      <Filter>ServerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ServerCommon\TemplateManager.cpp">
+      <Filter>ServerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ServerBase\ServerBase_CM.cpp">
+      <Filter>ServerBase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\MemoryPool.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerMonitoring_CM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\THGUIDFactory.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\THGUIDFactoryDefine.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\THMySqlConnector.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerCommon\PxPacketDefine.h">
+      <Filter>ServerCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerCommon\MyCommonDefine.h">
+      <Filter>ServerCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerCommon\TemplateManager.h">
+      <Filter>ServerCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerBase\ServerBase_CM.h">
+      <Filter>ServerBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerCommon\RGDefine.h">
+      <Filter>ServerCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerCommon\RGDefine_Account.h">
+      <Filter>ServerCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerCommon\RGDefine_Enum.h">
+      <Filter>ServerCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerCommon\RGDefine_Record.h">
+      <Filter>ServerCommon</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

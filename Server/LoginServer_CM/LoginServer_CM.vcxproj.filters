@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{13ebcdd5-b7fa-4fc3-b8cf-7663d23ef01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerBase">
+      <UniqueIdentifier>{a7478972-13ee-4748-a367-f8ca24caf837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerCommon">
+      <UniqueIdentifier>{d2eb09c4-5557-4afd-9bdf-f2d6369763e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphQL">
+      <UniqueIdentifier>{60f722db-a875-42d7-bee0-25f465fdc6a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginServer_CM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\THGUIDFactory.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginServer_CM_DB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginServer_CM_DBPrepare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginServer_CM_CB_Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginServer_CM_CB_Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ServerCommon\MyCommonImpl.cpp">
+      <Filter>ServerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ServerCommon\TemplateManager.cpp">
+      <Filter>ServerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ServerBase\ServerBase_CM.cpp">
+      <Filter>ServerBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\THMySQLPrepareStatement.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\THMySQLConnector.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GraphQL\CMDefineGraphQL_Impl.cpp">
+      <Filter>GraphQL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GraphQL\GraphQLManager.cpp">
+      <Filter>GraphQL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\MemoryPool.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginServer_CM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginServer_CM_Define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\THGUIDFactory.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\THGUIDFactoryDefine.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginServer_CM_DefineEnum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerCommon\MyCommonDefine.h">
+      <Filter>ServerCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerCommon\PxPacketDefine.h">
+      <Filter>ServerCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerCommon\TemplateManager.h">
+      <Filter>ServerCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerBase\ServerBase_CM.h">
+      <Filter>ServerBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\THMySQLPrepareStatement.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\THMySQLConnector.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerCommon\CMDefine.h">
+      <Filter>ServerCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerCommon\CMDefine_Enum.h">
+      <Filter>ServerCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GraphQL\CMDefineGraphQL.h">
+      <Filter>GraphQL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GraphQL\CMDefineGraphQL_Enum.h">
+      <Filter>GraphQL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GraphQL\GraphQLManager.h">
+      <Filter>GraphQL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
